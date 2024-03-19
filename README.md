@@ -1,6 +1,6 @@
 # March Madness Predictor
 
-This repository contains a comprehensive data science project that utilizes historical college basketball data to simulate March Madness brackets.
+This repository utilizes historical college basketball data to simulate March Madness brackets.
 
 ## Goal
 The primary objectives of this data science project are:
