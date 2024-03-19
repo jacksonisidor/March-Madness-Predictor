@@ -8,7 +8,7 @@ The primary objectives of this data science project are:
 - Identify potential upsets
 - Make a prediction for the 2024 March Madness bracket
 
-It's called "March Madness" for a reason. The tournament is known for being particularly unpredictable in the past, with no one ever coming close to a perfect bracket. With this in mind, I wanted to combine my knowledge of statistics, data, and basketball to beat the odds. Due to the winner-take-all aspect each matchup, a perfect bracket is practically impossible, so hopefully I can at least tame the madness enough to give me an edge over the average person.
+It's called "March Madness" for a reason. The tournament is known for being particularly unpredictable in the past, with no one ever coming close to a perfect bracket. With this in mind, I wanted to combine my knowledge of statistics, data, and basketball to beat the odds... or at least tame the madness enough to give me an edge over the average person considering the actual odds of a perfect bracket are 1 in 9.2 quintillion (Forbes).
 
 ## Data Sources
 The original data files utilized in this project are sourced from Nishaan Amin on Kaggle, specifically "Tournament Matchups.csv" containing information on who played against who, and "KenPom Barttorvik.csv" containing tons of valuable team statistics that I will use to evaluate the matchups. 
