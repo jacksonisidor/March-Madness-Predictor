@@ -38,6 +38,9 @@ To be exact, 8 of the 14 years scored over 109, 5 over 120, and 3 beat 130. Whil
   - `single_matchup_SVM_predictor.ipynb`: The optimization of an SVM model that predicts the winner of single matchups between two teams using various statistcs
   - `single_matchup_XGB_predictor.ipynb`: The optimization of an XGBoost model that predicts the winner of single matchups between two teams using various statistcs
   - `full_bracket_simulator.ipynb`: Optimizing a full bracket simulator (rather than single matchups) using custom simulation pipelines and scoring metrics
+
+#### 2024 Simulation
   - `MM2024Simulation.ipynb`: Training the optimized simulator on all available historical data to predict the 2024 March Madness bracket (results coming soon)
+  - `Bracket_2024.pdf`: The bracket outputted by the simulation. The results of this bracket will be avaiable at the end of the tournament in April
 
 
