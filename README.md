@@ -13,11 +13,14 @@ It's called "March Madness" for a reason. The tournament is known for being part
 ## Data Sources
 The original data files utilized in this project are sourced from Nishaan Amin on Kaggle, specifically "Tournament Matchups.csv" containing information on who played against who, and "KenPom Barttorvik.csv" containing tons of valuable team statistics that I will use to evaluate the matchups. 
 
-## Simulator Results
+## Simulator Results On Historical Data
 To maximize standard bracket scoring, I implemented the scoring metric using by ESPN, CBS, NCAA, etc. that doubles the point value for correct guesses each round. 
 Over the range of our available data, the average user score was 67, while the average seed-based bracket score is 88, indicating that simply picking the higher seed does significantly better than the average person. However, my simulator achieved an average of 98, out-performing both. If you remove the unpredictable outlier of a year that 2023 was, this score easily surpasses 100, with many years scoring well into the 130's.
 
 To be exact, 8 of the 14 years scored over 109, 5 over 120, and 3 beat 130. While exact user data is not fully public, this simulator would place comfortably high on the leaderboard almost every year. Because of the inherent unpredicability of March Madness, there is a wide range of scores in my model testing, but when compared to the field, it consistently performs better than 99% of users. 
+
+## 2024 Simulator Results
+Pending...
 
 ## Project Structure
 #### MM Data Folder
@@ -30,7 +33,7 @@ To be exact, 8 of the 14 years scored over 109, 5 over 120, and 3 beat 130. Whil
     - `raw_stats.csv`: Raw (unranked) stats from the most correlated variables to "round" (how far the team made it in the tournament)
     - `matchup_stats.csv`: Cleaned and processed matchup data with raw stats included for all the teams (this is what is used in the predictions/simulations)
 
-#### Data Processing Folder:
+#### Data Processing and EDA Folder:
   - `kenpom_processing.ipynb`: The notebook outlining the processing of the team stats data mentioned above
   - `matchups_processing.ipynb`: The notebook cleaning/processing matchup data and appropriately merging with team stats
 
