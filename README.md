@@ -17,7 +17,7 @@ The original data files utilized in this project are sourced from Nishaan Amin o
 To maximize standard bracket scoring, I implemented the scoring metric using by ESPN, CBS, NCAA, etc. that doubles the point value for correct guesses each round. 
 Over the range of our available data, the average user score was 67, while the average seed-based bracket score is 88, indicating that simply picking the higher seed does significantly better than the average person. However, my simulator achieved an average of 98, out-performing both. If you remove the unpredictable outlier of a year that 2023 was, this score easily surpasses 100, with many years scoring well into the 130's.
 
-To be exact, 8 of the 14 years scored over 109, 5 over 120, and 3 beat 130. While exact user data is not fully public, this simulator would place comfortably high on the leaderboard almost every year. Because of the inherent unpredicability of March Madness, there is a wide range of scores in my model testing, but when compared to the field, it consistently performs better than 99% of users. 
+To be exact, 8 of the 14 years scored over 109, 5 over 120, and 3 beat 130. While user data is not fully public, this simulator would place comfortably high on the leaderboard almost every year. Because of the inherent unpredicability of March Madness, there is a wide range of scores in my model testing, but when compared to the field, it consistently performs better than 99% of users. 
 
 ## 2024 Simulator Results
 Pending...
